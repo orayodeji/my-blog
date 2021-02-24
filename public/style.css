@@ -1,19 +1,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;1,100&family=Alegreya:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Rokkitt:wght@100;200;300;400;500;600;700;800;900&display=swap');
-body{
-    font-family: 'Rokkitt';
-}
+
 
 .blogs a{
     display: block;
     margin: 40px 0;
     padding-left: 30px;
-    border-left: 6px solid rgb(9, 8, 63);
+    border-left: 6px solid rgba(212, 129, 102, 0.5);
+}
+.blogs a:hover{
+    border-left: 6px solid #D48166;
 }
 
-.blogs a:hover h3{
-    color: rgb(9, 8, 63);
-}
+
 
 .content{
     margin-left: 20px;
@@ -31,13 +30,16 @@ body{
     max-width: 1200px;
     margin: 20px auto;
     padding: 0 20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Rokkitt';
 }
 p, h1, h2, h3, a, ul{
     margin: 0;
     padding: 0;
     text-decoration: none;
-    color: #222;
+    color: #D48166;
+    font-weight: 500;
+    font-size: 19px;
+    
 }
 nav{
     display: flex;
@@ -61,13 +63,14 @@ nav h1{
     font-size: 3rem;
 }
 nav p, nav a{
-    color: #777;
-    font-weight: 300;
+    color: rgba(219, 65, 14, 1);
+    font-weight: 600;
 }
 footer{
-    color: #777;
+    color: #D48166;
     text-align: center;
     margin: 80px auto 20px;
+    font-size: 30px;
 }
 h2{
     margin-bottom: 40px;
@@ -89,7 +92,9 @@ h3{
     width: 100%;
     margin: 10px 0;
     padding: 8px;
+    border-radius: 20px;
 }
+
 .create-blog label{
     display: block;
     margin-top: 24px;
@@ -99,12 +104,13 @@ textarea{
 }
 .create-blog button{
     margin-top: 20px;
-    background: rgb(9, 8, 63);
+    background: #D48166;
     color: white;
-    padding: 6px;
+    padding: 8px;
     border: 0;
     font-size: 1.2rem;
     cursor: pointer;
+    border-radius: 20px;
 }
 
 .details{
